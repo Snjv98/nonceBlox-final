@@ -1,0 +1,56 @@
+/* nav heading in center */
+ a.nav-link{
+  text-align: center;
+}
+
+.image-div{
+  justify-content: center; /* to make audit img center */
+  display: flex; /* to make audit img center */
+  padding: 8%;
+}
+
+/* this will apply on row class inside id="noceaudit" */
+.common-row-styles{
+  padding: 3rem 2rem;
+}
+#our-branches{
+  padding-bottom: 5rem;
+}
+.subheader-padding{
+  padding-bottom: 1rem;
+}
+
+.para-content-padding{
+  padding-bottom: 1rem;
+  color: rgb(133 49 241);
+}
+.branch-header{
+  font-weight: bolder;
+}
+.container-styles{
+  padding-top: 8rem;
+}
+#our-branches{
+  background: #ffe7f7;
+}
+.tab-pane{
+  background: #fff;
+}
+.btn-styles-custom{
+background: #5118b7 !important;
+padding: 5px 20px !important;
+}
+
+.nav-tabs .nav-link.active{/* styles for active nav tabs */
+  border-top: 5px solid;
+  border-color: #5118b7 #dee2e6 #fff !important;
+  box-shadow: inset 0px 5px 18px #88888830;
+  color:#8157cb !important;
+  font-weight: bold;
+}
+.nav-styles{
+  background: #fff;
+}
+.tab-content{
+  box-shadow: 1px 1px 25px rgb(8 8 8);
+}

@@ -1,0 +1,296 @@
+#banner{
+  background: linear-gradient(to right, #fcdff4 0%, #fafafb 100%);
+
+
+}
+/* navbar */
+ #navbarNav{
+  justify-content: right; /*navbar at right*/
+}
+.custom-nav{
+  background: #fff;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.custom-btn{
+  background: #5118b7;
+}
+/* Banner text */
+.container-banner-top{
+  padding-top: 15%;
+  padding-bottom: 5rem;
+}
+.banner-content{
+font-family: 'Nunito', sans-serif;
+line-height: 2;
+font-weight: bold;
+}
+.purple-header{
+  color: #734abd;
+}
+/* Banner-button */
+.banner-button{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* header-image */
+.header-image{
+  display: flex;
+  justify-content: right;
+}
+.header-actual-image{
+  width:500px;
+  /* height:700px */
+  height:300px;
+  border-radius: 20px;
+}
+/* Second banner container div */
+.second-banner-container{
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+/* for second banner header */
+.banner-second-heading{
+  text-align: center;
+}
+/* for second banner paragraph */
+.banner-second{
+  text-align: center;
+  padding-left: 23%;
+  padding-right: 23%;
+}
+/* discription */
+#discription{
+  background: linear-gradient(to right, #fcdff4 0%, #fafafb 100%);
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+}
+.card-body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card-div{
+  padding-top: 10px;
+  padding-bottom: 5px
+}
+.card{
+  border-style: none;
+  background: #f2f2f2;
+}
+.font-style{
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  text-align: justify;
+}
+.light-heading{
+  font-weight: lighter;
+}
+/* achievments */
+.achievments-main-div-header{
+  padding-top: 5rem;
+  padding-bottom: 2%;
+}
+.font-color-white{
+  color: #fff;
+}
+#achievments-section{
+  background: linear-gradient(to right, #944fee 0%, #d4b5fb 100%);
+  /* background: linear-gradient(to bottom, #944fee 0%, #d4b5fb 100%); */
+}
+
+.achievments-row{
+  background: #fff;
+  border-radius: 20px;
+  /* padding-top: 10%; */
+}
+#achievments-section{
+  padding-bottom: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.achieve-main-div{
+
+
+}
+#projects{
+  font-size: x-large;
+}
+
+.projects-left-block{
+  padding: 10% 5%;
+  text-align: left;
+  background: #8431f0;
+  color: #fff;
+  z-index: +1;
+  border-radius: 0 0 10rem 0;
+}
+.left-block-header{
+  font-size: 3rem ;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.projects-right-block{
+  padding: 10% 5%;
+  text-align: left;
+}
+.achievments-right-subblock{
+  font-size: 150%;
+  text-align: center;
+}
+.achievments-right-subheading{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ac8ed4;
+}
+.achiev-right-head-numbers{
+  color:#8531f1;
+  font-size: 30px;
+}
+.achievments-right-text{
+  font-size: 15px;
+
+}
+/* Services */
+#services{
+  background: linear-gradient(to right, #ffe7f7 0%, #ecf0fb 100%);
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#services h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.service-tech-image{
+  display: flex;
+  justify-content: center;
+}
+.service-tech-stack{
+
+}
+.service-text{
+  text-align: justify;
+  font-family: 'Mitr', sans-serif;
+  font-weight:100;
+  font-size: 1rem;
+}
+.our-branches{
+  padding-bottom: 20rem;
+}
+.service-container{
+  padding-top: 5rem;
+}
+.service-left-div{
+  padding-top: 3rem;
+}
+.custom-btn-token{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.token-row{
+  display: flex;
+  justify-content:center;
+}
+#second-banner{
+  background: linear-gradient(to right, #fcdff4 0%, #fafafb 100%);
+}
+/* footer */
+#footer{
+  background:  #751aff;
+}
+.footer-container{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.footer-info{
+  padding-left: 5px;
+}
+.footer-info-header-li{
+  color: #fff;
+}
+.footer-info-li{
+  color:  #cccccc;
+  text-decoration: none;
+}
+.rotate{
+  width: 250px;
+  height: 250px;
+
+  animation:rotation 10s infinite linear;
+}
+@keyframes rotation {
+  from{
+  transform: rotate(0deg);
+ }
+
+to{
+  transform: rotate(359deg);
+
+ }
+}
+.footer-favicon{
+  padding-right: 1rem;
+}
+
+/* to change the default color on hover */
+.footer-info-li:hover{
+  color: #fff !important;
+}
+@media only screen and (max-width: 576px){
+  .custom-nav{
+    padding-left: 0;
+  }
+  #banner{
+    padding-top: 25%;
+  }
+  .header-actual-image{
+    width: 90%;
+  }
+  .header-image{
+    display: flex;
+    justify-content: left;
+    height: 70%;
+  }
+  /*for h1 and paragraph  */
+  .banner-second{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  /* service */
+  .projects-left-block{
+    margin-right: 12px;
+    padding: 25% 5%;
+  }
+  .custom-btn-token{
+    justify-content: left;
+  }
+}
+@media screen and (max-width:992px){
+  .navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0,.55);
+    float: left;
+    /* margin-left: 35px; */
+}
+.nav-item{
+  margin-left: 35px !important;
+}
+.tab-pane-image{
+  width: 100% !important;
+}
+}
+/*service tech image*/
+.service-tech-image{
+}
+/* This class is for hover effect on buttons */
+.custom-btn:hover,.custom-btn-token:hover{
+  transform: scale(1.2);
+  background-color: #944fee;
+}
+.on_hover{
+  color:#91dbf8f6;
+}
